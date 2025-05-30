@@ -21,7 +21,7 @@ env/
 .venv/
 
 # Firebase credentials
-secrets/firebase-key.json
+#secrets/firebase-key.json
 
 # VSCode
 .vscode/

@@ -1,3 +1,4 @@
+
 from fastapi import APIRouter, HTTPException
 from ..models.sensor_model import SensorData
 from ..services.sensor_service import save_sensor_data

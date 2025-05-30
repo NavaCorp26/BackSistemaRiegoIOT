@@ -1,0 +1,34 @@
+"filename", "language", "JSON", "YAML", "Python", "pip requirements", "Markdown", "GraphQL", "comment", "blank", "total"
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\README.md", "Markdown", 0, 0, 0, 0, 3, 0, 0, 0, 3
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\__init__.py", "Python", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\config.py", "Python", 0, 0, 14, 0, 0, 0, 0, 4, 18
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\main.py", "Python", 0, 0, 16, 0, 0, 0, 0, 5, 21
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\alert_model.py", "Python", 0, 0, 13, 0, 0, 0, 0, 2, 15
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\pot_model.py", "Python", 0, 0, 11, 0, 0, 0, 0, 4, 15
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\sensor_model.py", "Python", 0, 0, 10, 0, 0, 0, 0, 1, 11
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\user_model.py", "Python", 0, 0, 6, 0, 0, 0, 0, 1, 7
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\alert_routes.py", "Python", 0, 0, 7, 0, 0, 0, 0, 3, 10
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\pot_routes.py", "Python", 0, 0, 56, 0, 0, 0, 3, 14, 73
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\sensor_routes.py", "Python", 0, 0, 17, 0, 0, 0, 0, 3, 20
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\status_routes.py", "Python", 0, 0, 12, 0, 0, 0, 0, 1, 13
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\user_routes.py", "Python", 0, 0, 9, 0, 0, 0, 0, 3, 12
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\watering_routes.py", "Python", 0, 0, 10, 0, 0, 0, 0, 3, 13
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\websocket.py", "Python", 0, 0, 9, 0, 0, 0, 0, 3, 12
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\alert_service.py", "Python", 0, 0, 54, 0, 0, 0, 6, 8, 68
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\firebase_service.py", "Python", 0, 0, 14, 0, 0, 0, 0, 2, 16
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\log_service.py", "Python", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\sensor_service.py", "Python", 0, 0, 12, 0, 0, 0, 0, 2, 14
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\user_service.py", "Python", 0, 0, 15, 0, 0, 0, 0, 3, 18
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\watering_service.py", "Python", 0, 0, 30, 0, 0, 0, 0, 4, 34
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\utils\exceptions.py", "Python", 0, 0, 18, 0, 0, 0, 0, 2, 20
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\utils\helper.py", "Python", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\utils\logger.py", "Python", 0, 0, 0, 0, 0, 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\.dataconnect\schema\prelude.gql", "GraphQL", 0, 0, 0, 0, 0, 1799, 48, 286, 2133
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\connector.yaml", "YAML", 0, 1, 0, 0, 0, 0, 16, 1, 18
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\mutations.gql", "GraphQL", 0, 0, 0, 0, 0, 0, 29, 4, 33
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\queries.gql", "GraphQL", 0, 0, 0, 0, 0, 0, 73, 6, 79
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\dataconnect.yaml", "YAML", 0, 11, 0, 0, 0, 0, 1, 1, 13
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\schema\schema.gql", "GraphQL", 0, 0, 0, 0, 0, 0, 48, 5, 53
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\firebase.json", "JSON", 10, 0, 0, 0, 0, 0, 0, 1, 11
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\requirements.txt", "pip requirements", 0, 0, 0, 6, 0, 0, 0, 0, 6
+"Total", "-", 10, 12, 333, 6, 3, 1799, 224, 376, 2763

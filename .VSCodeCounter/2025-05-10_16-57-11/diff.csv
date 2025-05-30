@@ -1,0 +1,11 @@
+"filename", "language", "JSON", "YAML", "pip requirements", "Markdown", "GraphQL", "comment", "blank", "total"
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\README.md", "Markdown", 0, 0, 0, -3, 0, 0, 0, -3
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\.dataconnect\schema\prelude.gql", "GraphQL", 0, 0, 0, 0, -1799, -48, -286, -2133
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\connector.yaml", "YAML", 0, -1, 0, 0, 0, -16, -1, -18
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\mutations.gql", "GraphQL", 0, 0, 0, 0, 0, -29, -4, -33
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\queries.gql", "GraphQL", 0, 0, 0, 0, 0, -73, -6, -79
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\dataconnect.yaml", "YAML", 0, -11, 0, 0, 0, -1, -1, -13
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\schema\schema.gql", "GraphQL", 0, 0, 0, 0, 0, -48, -5, -53
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\firebase.json", "JSON", -10, 0, 0, 0, 0, 0, -1, -11
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\requirements.txt", "pip requirements", 0, 0, -6, 0, 0, 0, 0, -6
+"Total", "-", -10, -12, -6, -3, -1799, -215, -304, -2349

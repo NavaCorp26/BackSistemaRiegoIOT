@@ -1,0 +1,25 @@
+"filename", "language", "Python", "comment", "blank", "total"
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\__init__.py", "Python", 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\config.py", "Python", 14, 0, 4, 18
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\main.py", "Python", 16, 0, 5, 21
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\alert_model.py", "Python", 13, 0, 2, 15
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\pot_model.py", "Python", 11, 0, 4, 15
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\sensor_model.py", "Python", 10, 0, 1, 11
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\models\user_model.py", "Python", 6, 0, 1, 7
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\alert_routes.py", "Python", 7, 0, 3, 10
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\pot_routes.py", "Python", 56, 3, 14, 73
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\sensor_routes.py", "Python", 17, 0, 3, 20
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\status_routes.py", "Python", 12, 0, 1, 13
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\user_routes.py", "Python", 9, 0, 3, 12
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\watering_routes.py", "Python", 10, 0, 3, 13
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\routes\websocket.py", "Python", 9, 0, 3, 12
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\alert_service.py", "Python", 54, 6, 8, 68
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\firebase_service.py", "Python", 14, 0, 2, 16
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\log_service.py", "Python", 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\sensor_service.py", "Python", 12, 0, 2, 14
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\user_service.py", "Python", 15, 0, 3, 18
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\services\watering_service.py", "Python", 30, 0, 4, 34
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\utils\exceptions.py", "Python", 18, 0, 2, 20
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\utils\helper.py", "Python", 0, 0, 1, 1
+"c:\Users\nava\Desktop\Maceta IOT\BackIOT\app\utils\logger.py", "Python", 0, 0, 1, 1
+"Total", "-", 333, 9, 72, 414

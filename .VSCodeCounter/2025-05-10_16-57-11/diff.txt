@@ -1,0 +1,45 @@
+Date : 2025-05-10 16:57:11
+Directory : c:\Users\nava\Desktop\Maceta IOT\BackIOT\app
+Total : 9 files,  -1830 codes, -215 comments, -304 blanks, all -2349 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Markdown         |          1 |         -3 |          0 |          0 |         -3 |
+| pip requirements |          1 |         -6 |          0 |          0 |         -6 |
+| JSON             |          1 |        -10 |          0 |         -1 |        -11 |
+| YAML             |          2 |        -12 |        -17 |         -2 |        -31 |
+| GraphQL          |          4 |     -1,799 |       -198 |       -301 |     -2,298 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                 | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                    |          9 |     -1,830 |       -215 |       -304 |     -2,349 |
+| ..                                                                                   |          9 |     -1,830 |       -215 |       -304 |     -2,349 |
+| .. (Files)                                                                           |          3 |        -19 |          0 |         -1 |        -20 |
+| ..\dataconnect                                                                       |          6 |     -1,811 |       -215 |       -303 |     -2,329 |
+| ..\dataconnect (Files)                                                               |          1 |        -11 |         -1 |         -1 |        -13 |
+| ..\dataconnect\.dataconnect                                                          |          1 |     -1,799 |        -48 |       -286 |     -2,133 |
+| ..\dataconnect\.dataconnect\schema                                                   |          1 |     -1,799 |        -48 |       -286 |     -2,133 |
+| ..\dataconnect\connector                                                             |          3 |         -1 |       -118 |        -11 |       -130 |
+| ..\dataconnect\schema                                                                |          1 |          0 |        -48 |         -5 |        -53 |
++--------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                             | language         | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\README.md                                   | Markdown         |         -3 |          0 |          0 |         -3 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\.dataconnect\schema\prelude.gql | GraphQL          |     -1,799 |        -48 |       -286 |     -2,133 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\connector.yaml        | YAML             |         -1 |        -16 |         -1 |        -18 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\mutations.gql         | GraphQL          |          0 |        -29 |         -4 |        -33 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\connector\queries.gql           | GraphQL          |          0 |        -73 |         -6 |        -79 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\dataconnect.yaml                | YAML             |        -11 |         -1 |         -1 |        -13 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\dataconnect\schema\schema.gql               | GraphQL          |          0 |        -48 |         -5 |        -53 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\firebase.json                               | JSON             |        -10 |          0 |         -1 |        -11 |
+| c:\Users\nava\Desktop\Maceta IOT\BackIOT\requirements.txt                            | pip requirements |         -6 |          0 |          0 |         -6 |
+| Total                                                                                |                  |     -1,830 |       -215 |       -304 |     -2,349 |
++--------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
