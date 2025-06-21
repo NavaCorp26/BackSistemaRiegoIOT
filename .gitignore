@@ -12,14 +12,6 @@ __pycache__/
 *.sqlite3
 *.db
 
-# Environments
-.env
-.env.*
-venv/
-ENV/
-env/
-.venv/
-
 # Firebase credentials
 #secrets/firebase-key.json
 
@@ -53,3 +45,28 @@ coverage.xml
 
 # Git
 *.orig
+
+# Archivos y carpetas innecesarios
+# Logs
+*.log
+
+# Datos exportados o generados
+/exportedData/
+/dataconnect/
+/dataconnect-debug.log
+/firebase-debug.log
+
+# Editor y herramientas de desarrollo
+/.VSCodeCounter/
+.vscode/
+
+# Entorno virtual (si existiera en raíz)
+
+__pycache__/
+*.pyc
+
+.env
+secrets/
+*.json
+*.key
+*.pem
