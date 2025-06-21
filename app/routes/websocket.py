@@ -1,12 +1,38 @@
 import asyncio
-from fastapi import WebSocket
+import threading
+from fastapi import WebSocket, WebSocketDisconnect
 from ..services.firebase_service import rtdb
+
+def create_stream_handler(websocket: WebSocket):
+    def stream_handler(message):
+        if message["event"] == "put":
+            asyncio.run_coroutine_threadsafe(websocket.send_json(message["data"]), asyncio.get_event_loop())
+    return stream_handler
+    
+    
 
 async def websocket_endpoint(websocket: WebSocket):
     await websocket.accept()
+    max_retries = 3
+    retry_delay = 5
     
-    def stream_handler(message):
-        if message["event"] == "put":
-            asyncio.create_task(websocket.send_json(message["data"]))
-    
-    rtdb.child("sensor_data").stream(stream_handler)
+    for attempt in range(max_retries):
+        try:
+            # Threading se usa para que se ejecute en paralelo y que no se bloquee esta cosa
+            handler = create_stream_handler(websocket)
+            thread = threading.Thread(target=rtdb.child("sensor_data").stream, args=(handler,))
+            thread.start()
+            
+            while True: 
+                await asyncio.sleep(1)
+                
+        except WebSocketDisconnect:
+            print("Cliente desconectado")
+            break
+        
+        except Exception as e:
+            print(f"Error en WebSocket (intento {attempt + 1}/{max_retries}): {e}")
+            await asyncio.sleep(retry_delay)
+        else:
+            await websocket.close()
+            
