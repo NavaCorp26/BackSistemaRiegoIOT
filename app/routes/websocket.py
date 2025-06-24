@@ -6,7 +6,15 @@ from ..services.firebase_service import rtdb
 def create_stream_handler(websocket: WebSocket):
     def stream_handler(message):
         if message["event"] == "put":
-            asyncio.run_coroutine_threadsafe(websocket.send_json(message["data"]), asyncio.get_event_loop())
+            data_to_send = {
+                "message": "Datos en tiempo real actualizados",
+                "data": message["data"],
+                "status_code": 200
+            }
+            asyncio.run_coroutine_threadsafe(
+                websocket.send_json(data_to_send),
+                asyncio.get_event_loop()
+            )
     return stream_handler
     
     

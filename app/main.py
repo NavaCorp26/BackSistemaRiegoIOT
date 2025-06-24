@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.openapi.utils import get_openapi
 from fastapi.security import HTTPBearer
 from fastapi.middleware.cors import CORSMiddleware
+from .utils.exception_handler import add_exception_handlers
 from .routes import sensor_routes, websocket, user_routes, alert_routes, status_routes, watering_routes, pot_routes, auth_routes, register_routes
 
 from .config import settings
@@ -17,6 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+add_exception_handlers(app)
 app.include_router(sensor_routes.route, prefix="/api")
 app.include_router(user_routes.route, prefix="/api")
 app.include_router(alert_routes.route, prefix="/api")
